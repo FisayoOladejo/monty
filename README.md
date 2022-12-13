@@ -4,5 +4,4 @@ This is a group project
 
 Contributors 😎💪
 
-.Fisayo Oladejo 
-.Nwigwe Chidubem William
+Fisayo Oladejo and Nwigwe Chidubem William
