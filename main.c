@@ -1,4 +1,4 @@
-define  _GNU_SOURCE
+#define  _GNU_SOURCE
 #include <stdio.h>
 #include "monty.h"
 bus_t bus = {NULL, NULL, NULL, 0};
