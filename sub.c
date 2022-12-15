@@ -22,8 +22,7 @@ void _sub(stack_t **head, unsigned int counter)
 		exit(EXIT_FAILURE);
 	}
 	temp = *head;
-	/*sub = temp->next->n - aux->n;*/
-	temp->next->n = temp->next->n - aux->n;
+	temp->next->n = temp->next->n - temp->n;
 	*head = temp->next;
 	free(temp);
 }
