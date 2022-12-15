@@ -1,6 +1,6 @@
 0x19. C - Stacks, Queues - LIFO, FIFO
 
-This is a group project 
+This is a group project
 
 Contributors 😎💪
 
