@@ -5,7 +5,7 @@
  * @counter: line_counter
  * @file: poiner to monty file
  * @content: line content
- * Return: no return
+ * Return: 1 if successful
  */
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 {
@@ -24,8 +24,6 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 	unsigned int i = 0;
 	char *op;
 
-	if (content[0] == '#')
-		return (0);
 	op = strtok(content, " \n\t");
 	if (op && op[0] == '#')
 		return (0);
