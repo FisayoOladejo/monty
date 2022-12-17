@@ -23,7 +23,7 @@ int execute(char *content, stack_t **stack, unsigned int counter, FILE *file)
 				};
 	unsigned int i = 0;
 	char *op;
-	while (*content == ' ')
+	while (*content == ' ' || *content == '\t')
 		content++;
 
 	op = strtok(content, " \n\t");
